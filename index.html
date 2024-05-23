@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ella
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="qrModal" class="modal fade" role="dialog" aria-labelledby="qrModal" aria-hidden="true"tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content rounded-3">
+            <div class="modal-header">
+              <h5 class="modal-title pe-2">Download and enjoy your friendly coffee companion with a techy twist with
+                just a few taps.</h5>
+              <button type="button" class="close d-flex align-items-center justify-content-center p-3 rounded-circle" data-bs-dismiss="modal" aria-label="Close"><img class="img-fluid" src="img/close.png" alt="" srcset=""></button>
+            </div>
+            <div class="modal-body pt-5">
+              <div class="row">
+                <div class="col-6 flex-row justify-content-center">
+                    <img class="img-thumbnail" src="img/appleqr.png" alt="" srcset="">
+                    <div class="p-5">
+                        <a class="modal-button" href="https://apps.apple.com/ph/app/ella-the-robot-barista/id1482369589" target="_blank"><img class="img-fluid" src="img/apple.svg" alt=""></a>
+                    </div>
+                    
+                </div>
+                <div class="col-6 flex-row justify-content-center">
+                    <img class="img-thumbnail" src="img/googleqr.png" alt="" srcset="">
+                    <div class="p-5">
+                        <a class="modal-button" href="https://play.google.com/store/apps/details?id=com.crowndigital.crowncoffee&pcampaignid=web_share" target="_blank"><img class="img-fluid" src="img/playstore.svg" alt="" srcset=""></a>
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-around align-items-center w-100">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#aboutus">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#package">ELLA'S PARTY PACKAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="/"><img src="img/logo-white.svg" class="img-fluid" alt="" srcset=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#fella">ELLA'S FELLA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#location">LOCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#faqs">FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="desktop">
+        <header>
+            <div class="overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="img/hero.mp4" type="video/mp4">
+            </video>
+
+            <div class="header-content ms-5 ps-5 mt-5 pt-5">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="header-logo">
+                            <h1>Ella</h1>
+                        </div>
+                        <div class="header-sub">
+                            <p>The Robot <span class="header-highlight"> Barista <img src="img/line.png" class="img-fluid" alt="" srcset=""></span></p>
+                            <p>Coming Soon to the <br/> Philippines</p>
+                        </div>
+                        <div class="header-desc">Redefining the coffee experience with cutting edge technology</div>
+                        <div class="header-buttons d-flex justify-content-center align-items-center mt-3">
+                            <a href="https://apps.apple.com/ph/app/ella-the-robot-barista/id1482369589" target="_blank"><img class="img-fluid" src="img/apple-white.svg" alt=""></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.crowndigital.crowncoffee&pcampaignid=web_share" target="_blank"><img class="img-fluid" src="img/playstore-white.svg" alt=""></a>
+                            <button type="button" class="empty qr" data-bs-toggle="modal" data-bs-target="#qrModal"><img src="img/qr-code.png" class="img-fluid" alt="" srcset=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="aboutus">
+            <div  class="banner d-flex align-items-center justify-content-center" data-speed="8" data-type="background">
+                <div class="container">
+                    <h1 class="text-center">About US</h1>
+                </div>
+            </div>
+            <div class="aboutus-desc px-5">
+                <p class="text-center">Meet Ella, your neighborhood's newest barista, a sleek robot with a digital smile and a talent for crafting
+                    the perfect cup of coffee. With advanced AI and precision engineering, Ella grinds beans, steams milk, and
+                    pours espresso with flawless efficiency, all while engaging customers in friendly conversation. Eco-friendly
+                    and efficient, Ella revolutionizes your coffee experience with her charm and expertise.</p>
+                <div class="aboutus-button">
+                    <button type="button" class="desktop-button rounded-pill p-3 px-4" onclick="window.location.href='/aboutus.html'">Learn More<i class="fa-solid fa-up-right-from-square ps-3" style="color: #d83289;"></i></button>
+                </div>
+            </div>
+        </section>
+        <section id="package">
+            <div  class="banner d-flex align-items-center justify-content-center" data-speed="8" data-type="background">
+                <div class="container">
+                    <h1 class="text-center">Ella's Party Package</h1>
+                </div>
+            </div>
+            <div class="package-desc px-5">
+                <p class="text-center">MConsistency, Cleanliness, and the Savory taste of Italian Beans
+                    arent the only things Ella aims to give you. We also want to share
+                    what we have to offer to people and bring smiles to their faces.
+                    Allow Ella to join you in your special events; Your Coffee, Anytime.</p>
+                <div class="package-button">
+                    <button type="button" class="desktop-button rounded-pill p-3 px-4" onclick="window.location.href='/partypackage.html'">Learn More<i class="fa-solid fa-up-right-from-square ps-3" style="color: #d83289;"></i></button>
+                </div>
+            </div>
+        </section>
+        <section id="fella">
+            <div  class="banner d-flex align-items-center justify-content-center" data-speed="8" data-type="background">
+                <div class="container">
+                    <h1 class="text-center">Ella's Fella</h1>
+                </div>
+            </div>
+            <div class="fella-desc px-5">
+                <p class="text-center">Ella’s Fellas is a community where everyone can be an influencer. 
+                    We encourage everyone to share their thoughts and experiences with
+                    Ella. This way we can all create a common ground to share be
+                    connected</p>
+                <div class="fella-button">
+                    <button type="button" class="desktop-button rounded-pill p-3 px-4" onclick="window.location.href='/fella.html'">Learn More<i class="fa-solid fa-up-right-from-square ps-3" style="color: #d83289;"></i></button>
+                </div>
+            </div>
+        </section>
+        <section id="location">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1 class="location-header">VISIT US</h1>
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <img src="img/location.png" class="img-fluid location-icon" alt="" srcset="">
+                </div>
+                <div class="col-12">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-4 d-flex justify-content-end">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center location-h2">Location</h2></div>
+                                <div class="col-12"><p class="text-center location-p">Location</p></div>
+                                <div class="col-12">
+                                    <div class="location-button text-center">
+                                        <button type="button">ORDER NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center location-h2">Location</h2></div>
+                                <div class="col-12"><p class="text-center location-p">Location</p></div>
+                                <div class="col-12">
+                                    <div class="location-button text-center">
+                                        <button type="button">ORDER NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-start">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center location-h2">Location</h2></div>
+                                <div class="col-12"><p class="text-center location-p">Location</p></div>
+                                <div class="col-12">
+                                    <div class="location-button text-center">
+                                        <button type="button">ORDER NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-4 d-flex justify-content-end">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center location-h2">Location</h2></div>
+                                <div class="col-12"><p class="text-center location-p">Location</p></div>
+                                <div class="col-12">
+                                    <div class="location-button text-center">
+                                        <button type="button">ORDER NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center location-h2">Location</h2></div>
+                                <div class="col-12"><p class="text-center location-p">Location</p></div>
+                                <div class="col-12">
+                                    <div class="location-button text-center">
+                                        <button type="button">ORDER NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-start">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center location-h2">Location</h2></div>
+                                <div class="col-12"><p class="text-center location-p">Location</p></div>
+                                <div class="col-12">
+                                    <div class="location-button text-center">
+                                        <button type="button">ORDER NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faqs">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1 class="faqs-header">FAQs</h1>
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <img src="img/faqs.png" class="img-fluid faqs-icon" alt="" srcset="">
+                </div>
+                <div class="col-12">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-4 d-flex justify-content-end">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center faqs-h2">How do I place an order?</h2></div>
+                                <div class="col-12"><p class="text-center faqs-p">Answer</p></div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center faqs-h2">How to use the Ella App</h2></div>
+                                <div class="col-12"><p class="text-center faqs-p">Video link</p></div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-start">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center faqs-h2"> How to contact Ella</h2></div>
+                                <div class="col-12"><p class="text-center faqs-p"> Location</p></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-4 d-flex justify-content-end">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center faqs-h2">How do I place an order?</h2></div>
+                                <div class="col-12"><p class="text-center faqs-p">Answer</p></div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center faqs-h2">How to use the Ella App</h2></div>
+                                <div class="col-12"><p class="text-center faqs-p">Video link</p></div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex justify-content-start">
+                            <div class="row">
+                                <div class="col-12"><h2 class="text-center faqs-h2"> How to contact Ella</h2></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="contact-title text-center">Let's Book Your Event With Us!</h1>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <form action="" class="contact-form" method="post">
+                        <div class="row px-3">
+                            <div class="col-7">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="contact-fullname">YOUR FULL NAME</label>
+                                        <input type="text" name="fullname" id="contact-fullname">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contact-email">YOUR EMAIL ADDRESS</label>
+                                        <input type="text" name="email" id="contact-email">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="contact-number">YOUR PRIMARY NUMBER</label>
+                                        <input type="text" name="number" id="contact-number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5 ps-4">
+                                <label for="contact-content">YOUR MESSAGE IN 250 WORDS</label>
+                                <textarea name="content" id="contact-content"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="contact-submit">SEND</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="download">
+            <div class="row">
+                <div class="col-12 download-title text-center">How to Download Ella App</div>
+                <div class="col-12 download-video d-flex justify-content-center">
+                    <video controls>
+                        <source src="img/hero.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center justify-content-end">
+                    <div class="row d-flex align-items-center justify-content-end">
+                        <div class="col-4 footer-icons"><a href="https://www.instagram.com/meetella.ph?igsh=MXVhN2V2cnl3bHVkYg==" target="_blank"><img src="img/instagram.png" class="img-fluid" alt="" srcset=""></a></div>
+                        <div class="col-4 footer-icons"><a href="https://youtube.com/@Ellaph-hg8nc?si=VMNXbQKvCsJWsusY" target="_blank"><img src="img/youtube.png" class="img-fluid" alt="" srcset=""></a></div>
+                        <div class="col-4 footer-icons"><a href="https://www.facebook.com/share/cftJXHgpRUMqvx5d/?mibextid=LQQJ4d" target="_blank"><img src="img/facebook.png" class="img-fluid" alt="" srcset=""></a></div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                    <button type="button" class="desktop-button footer-button rounded-pill p-3 px-4" data-bs-toggle="modal" data-bs-target="#qrModal">DOWNLOAD NOW</button>
+                </div>
+            </div>
+        </section>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
