@@ -703,3 +703,52 @@ header {
   .download-video video {
     width: 70%;
   }
+
+
+  /* mobile view */
+
+
+
+  #mobile-video{
+    margin-top: 120px;
+    height: 50vw;
+    border-radius: 2.5rem;
+  }
+
+  .hero-logo h1{
+    font-family: logo;
+    font-size: 20vw;
+    color: var(--secoundary);
+  }
+
+  .hero-sub{
+    font-size: 5vw;
+  }
+
+  .hero-sub .child1{
+    line-height: 1rem;
+  }
+
+  .hero-highlight{
+    color: var(--secoundary);
+    position: relative;
+  }
+
+  .hero-highlight img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .hero-desc {
+    font-size: 1.5rem;
+  }
+
+  .hero-buttons a img {
+    width: 15rem;
+  }
+  
+  .hero-buttons button{
+    width: 5rem;
+    background-color: transparent;
+  }

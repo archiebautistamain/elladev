@@ -15,9 +15,13 @@ $(function(){
   if(windowSize < 992){
     $("#navigation-collapse").removeClass("d-none");
     $("#navigation-brand").addClass("d-none");
+    $("#desktop").addClass("d-none");
+    $("mobile").removeClass("d-none");
   } else {
     $("#navigation-collapse").addClass("d-none");
     $("#navigation-brand").removeClass("d-none")
+    $("#desktop").removeClass("d-none");
+    $("mobile").addClass("d-none");
   }
 
   $(window).resize(function(){
@@ -25,9 +29,13 @@ $(function(){
     if(windowSize < 992){
         $("#navigation-collapse").removeClass("d-none");
         $("#navigation-brand").addClass("d-none");
+        $("#desktop").addClass("d-none");
+        $("mobile").removeClass("d-none");
     } else {
         $("#navigation-collapse").addClass("d-none");
         $("#navigation-brand").removeClass("d-none");
+        $("#desktop").removeClass("d-none");
+        $("mobile").addClass("d-none");
     }
 });
 
