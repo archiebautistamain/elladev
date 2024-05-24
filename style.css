@@ -194,10 +194,10 @@ header {
     color: var(--secoundary);
 }
 
-#desktop #package {
+#desktop #package-home {
     height: 100vh;
 }
-#desktop #package .banner { 
+#desktop #package-home .banner { 
     background: url("img/partypackage.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -208,21 +208,21 @@ header {
     position: relative; 
 }
 
-#desktop #package .banner .container h1{
+#desktop #package-home .banner .container h1{
     color: white;
     font-size: 10rem;
 }
 
-#desktop #package .package-desc{
+#desktop #package-home .package-desc{
     padding-top: 4rem;
 }
 
-#desktop #package .package-desc p{
+#desktop #package-home .package-desc p{
     color: var(--secoundary);
     font-size: 3rem;
 }
 
-#desktop #package .package-desc .package-button{
+#desktop #package-home .package-desc .package-button{
     float: right;
     margin-top: 5rem;
 }
@@ -331,6 +331,7 @@ header {
     background-color: var(--secoundary);
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-top: 5rem;
 }
 
 .footer-icons{
@@ -535,22 +536,22 @@ header {
   }
 
   #package{
-    height: 100vh;
     padding-top: 10rem;
   }
 
   .package-card {
+    height: 100%;
+    padding-bottom: 20rem;
     border: solid 3px white;
     border-radius: 2rem;
     background-color: #ffe0f3;
-    height: 70vh;
-    width: 20vw;
+    width: 70%;
     position: relative;
   }
 
   .package-card img {
     height: 20vw;
-    width: 20vw;
+    width: 100%;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
   }
