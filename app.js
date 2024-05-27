@@ -16,12 +16,12 @@ $(function(){
     $("#navigation-collapse").removeClass("d-none");
     $("#navigation-brand").addClass("d-none");
     $("#desktop").addClass("d-none");
-    $("mobile").removeClass("d-none");
+    $("#mobile").removeClass("d-none");
   } else {
     $("#navigation-collapse").addClass("d-none");
     $("#navigation-brand").removeClass("d-none")
     $("#desktop").removeClass("d-none");
-    $("mobile").addClass("d-none");
+    $("#mobile").addClass("d-none");
   }
 
   $(window).resize(function(){
@@ -30,32 +30,34 @@ $(function(){
         $("#navigation-collapse").removeClass("d-none");
         $("#navigation-brand").addClass("d-none");
         $("#desktop").addClass("d-none");
-        $("mobile").removeClass("d-none");
+        $("#mobile").removeClass("d-none");
     } else {
         $("#navigation-collapse").addClass("d-none");
         $("#navigation-brand").removeClass("d-none");
         $("#desktop").removeClass("d-none");
-        $("mobile").addClass("d-none");
+        $("#mobile").addClass("d-none");
     }
 });
-
- $('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-  });
-  $('.slider-nav').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: true,
-    focusOnSelect: true,
-    autoplay: true
-  });
-
+  if(window.location.pathname === "/aboutus.html"){
+    $('.slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: true,
+      focusOnSelect: true,
+      autoplay: true
+    });
+  }
   
+  
+ 
 });
 
 function removeActive(){

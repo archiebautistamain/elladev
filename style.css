@@ -23,12 +23,14 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 8rem;
+    
 }
 
 body {
     background: var(--bg);
-    width: 100vw;
+    width: 100vw !important;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 ::-webkit-scrollbar {
     width: 0.5rem;
@@ -43,7 +45,7 @@ body {
 
 .navbar{
     background-color: var(--secoundary) !important;
-    max-width: 99.9vw;
+    width: 100%;
     margin-right: 0;
 
 }
@@ -183,6 +185,7 @@ header {
 #desktop #aboutus .aboutus-desc p{
     color: var(--secoundary);
     font-size: 3rem;
+    text-shadow: none !important;
 }
 
 #desktop #aboutus .aboutus-desc .aboutus-button{
@@ -220,6 +223,7 @@ header {
 #desktop #package-home .package-desc p{
     color: var(--secoundary);
     font-size: 3rem;
+    text-shadow: none !important;
 }
 
 #desktop #package-home .package-desc .package-button{
@@ -258,6 +262,7 @@ header {
 #desktop #fella .fella-desc p{
     color: var(--secoundary);
     font-size: 3rem;
+    text-shadow: none !important;
 }
 
 #desktop #fella .fella-desc .fella-button{
@@ -292,6 +297,7 @@ header {
 .location-p {
     font-size: 2.5rem;
     color: var(--secoundary);
+    text-shadow: none !important;
 }
 
 .location-button button {
@@ -325,6 +331,7 @@ header {
     font-size: 2.5rem;
     color: var(--secoundary);
     margin-bottom: 5rem;
+    text-shadow: none !important;
 }
 
 #footer {
@@ -352,7 +359,7 @@ header {
 }
 
 .page-title{
-    font-size: 10rem;
+    font-size: 7rem;
     color: var(--secoundary);
     margin-bottom: 5rem;
 }
@@ -626,11 +633,13 @@ header {
   .fella-text h1{
     font-size: 2.5rem;
     color: var(--secoundary);
+    text-shadow: none !important;
   }
 
   .fella-text p {
     font-size: 2rem;
     color: var(--secoundary);
+    text-shadow: none !important;
   }
 
   .fella-row {
@@ -723,6 +732,12 @@ header {
 
   .hero-sub{
     font-size: 5vw;
+    
+  }
+
+  .hero-sub p {
+    color: black;
+    text-shadow: none !important;
   }
 
   .hero-sub .child1{
@@ -752,3 +767,386 @@ header {
     width: 5rem;
     background-color: transparent;
   }
+
+  #mobile-aboutus{
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #mobile-aboutus .banner{
+    background-image: url("img/aboutus.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+  }
+
+  .mobile-text .col-12 h1{
+    font-size: x-large;
+    margin-bottom: 5rem;
+  }
+
+  .mobile-text .aboutus-desc p{
+    font-size: small;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+.mobile-text .col-12 h1, .mobile-text .aboutus-desc p{
+  color: white;
+  text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
+}
+
+.mobile-text .aboutus-desc{
+  position: relative;
+}
+
+.mobile-button {
+  position: absolute;
+  bottom: -10rem;
+  right: -5rem;
+  transform: translate(-50%);
+}
+
+.mobile-button button {
+  font-size: 2rem;
+}
+
+#mobile-package {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 10rem;
+}
+
+#mobile-package .banner {
+  background-image: url("img/partypackage.JPG");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.mobile-text .package-desc p{
+  font-size: small;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mobile-text .col-12 h1, .mobile-text .package-desc p{
+color: white;
+text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
+}
+
+.mobile-text .package-desc{
+  position: relative;
+}
+
+#mobile-fella {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 10rem;
+}
+
+#mobile-fella .banner{
+  background-image: url("img/ellasfella.JPG");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.mobile-text .fella-desc p{
+  font-size: small;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mobile-text .col-12 h1, .mobile-text .fella-desc p{
+color: white;
+text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
+}
+
+.mobile-text .fella-desc{
+  position: relative;
+}
+
+
+#mobile-location{
+  height: 100vh;
+  width: 100vw;
+  margin-top: 5rem;
+  overflow-x: hidden;
+}
+
+.location-text .col-12 h1 {
+  font-size: xx-large !important;
+}
+
+.location-text p {
+  text-shadow: none !important;
+}
+
+.mobile-h2 {
+  color: var(--secoundary);
+  font-weight: bold;
+  font-size: normal;
+}
+
+.mobile-p {
+  color: var(--secoundary);
+  font-size: small;
+}
+
+.location-btn button {
+  font-size: small;
+  color:  white;
+  background-color: var(--secoundary);
+  border-radius: 5px;
+}
+
+#mobile-contact {
+  height: 100vh;
+  width: 100vw;
+}
+
+#mobile-contact .contact-title {
+  font-size: x-large !important;
+}
+
+.mobile-contact-row label{
+  font-size: small;
+}
+
+.mobile-contact-row button {
+  font-size: large;
+}
+
+#mobile-download {
+  height: 100vh;
+  width: 100vw;
+}
+
+#mobile-download .download-title{
+  font-size: x-large;
+}
+
+#mobile-download .download-video{
+  width: 100vw;
+}
+
+#mobile-download .download-video video {
+  width: 90vw;
+  border-radius: 2rem;
+}
+
+#mobile-footer {
+  width: 100%;
+  background-color: var(--secoundary);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  bottom: 0;
+}
+
+.mobile-footer-icons{
+  width: 5rem;
+}
+
+.mobile-footer-button {
+  font-size: small !important;
+}
+
+#mobile-partypackage{
+  padding-top: 10rem;
+  min-height: 100vh;
+}
+
+#mobile-partypackage .mobile-title {
+  font-size: x-large;
+  margin-bottom: 2rem;
+  color: var(--secoundary);
+  font-weight: bold;
+}
+
+#mobile-partypackage .mobile-package {
+  background-color: white;
+  border: solid 1px var(--secoundary);
+  border-radius: 2rem;
+}
+
+.mobile-package .tag{
+  font-size: large;
+  font-weight: bold;
+  color: var(--secoundary);
+}
+
+.mobile-package .mobile-price {
+  font-size: large;
+}
+
+#bronzepackage .card{
+  background-color: transparent !important;
+  border: none !important;
+}
+
+#goldpackage .card{
+  background-color: transparent !important;
+  border: none !important;
+}
+
+#diamondpackage .card{
+  background-color: transparent !important;
+  border: none !important;
+
+}
+
+#mobile #package-footer{
+  background-color: var(--secoundary);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  position: relative;
+  
+}
+
+#mobile-aboutus{
+  margin-top:10rem;
+}
+
+.mobile-aboutus-title h1{
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--secoundary);
+  margin-bottom: 3rem;
+}
+
+.mobile-card-title{
+  font-size: large;
+  color: var(--secoundary);
+}
+.mobile-card{
+  height: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.mobile-card-img1 {
+  background-image: url("img/card1.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 2rem;
+}
+
+.mobile-card-img2 {
+  background-image: url("img/card2.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 2rem;
+}
+
+.mobile-card-img3 {
+  background-image: url("img/card3.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 2rem;
+}
+
+.mobile-text h3{
+  font-size: small;
+  color: var(--secoundary);
+  line-height: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#mobile-carousel{
+  margin-bottom: 5rem;
+  position: relative;
+  min-height: 100vh;
+}
+.carousel-title{
+  margin-top: 5rem;
+  font-size: x-large;
+  color: var(--secoundary);
+  font-weight: bold;
+}
+
+.carousel-caption h5, p{
+  color: white;
+  text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
+}
+
+
+
+.mobile-fella-title {
+  font-size: x-large;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10rem;
+  color: var(--secoundary);
+}
+
+.fella-card {
+  background-color: var(--secoundary2);
+  height: 15vh;
+  padding-top: 5%;
+  width: 80%;
+  border-radius: 3rem;
+  margin-bottom: 1rem;
+}
+
+.fella-pic {
+
+  min-height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+}
+
+.fella1{
+  background-image: url("img/fella1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.fella2{
+  background-image: url("img/fella2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.fella3{
+  background-image: url("img/fella3.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.fella4{
+  background-image: url("img/fella4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.fella5{
+  background-image: url("img/fella5.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.fella-reviews h2{
+  font-size: large;
+  color: var(--primary);
+}
+
+.fella-reviews p {
+  font-size: small;
+  text-shadow: none !important;
+  color: var(--secoundary);
+}
+
+#mobile #fella-footer{
+  background-color: var(--secoundary);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  position: relative;
+  
+}
+
