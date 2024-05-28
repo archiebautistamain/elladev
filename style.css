@@ -654,7 +654,7 @@ header {
   }
 
   .fella-title {
-    font-size: 7rem;
+    font-size: 7vh;
     margin-bottom: 5rem;
     color: var(--secoundary);
   }
@@ -663,10 +663,9 @@ header {
     position: relative;
     object-fit: cover;
     overflow: hidden;
-    height: 20rem;
-    width: 20rem;
+    height: 10vw;
+    width: 10vw;
     border: solid 3px var(--secoundary);
-    padding: -2rem;
   }
 
   .fella-text h1{
@@ -681,10 +680,6 @@ header {
     text-shadow: none !important;
   }
 
-  .fella-row {
-    padding-left: 5rem;
-    padding-right: 20rem;
-  }
 
   .fella-row div {
     margin-left: 5rem;
