@@ -163,6 +163,7 @@ header {
     height: 100vh;
 }
 #desktop #aboutus .banner { 
+  position: relative;
     background: url("img/aboutus.JPG");
     background-size: cover;
     -webkit-background-size: cover;
@@ -204,6 +205,7 @@ header {
     height: 100vh;
 }
 #desktop #package-home .banner { 
+  position: relative;
     background: url("img/partypackage.JPG");
     background-size: cover;
     -webkit-background-size: cover;
@@ -246,6 +248,7 @@ header {
     height: 100vh;
 }
 #desktop #fella .banner { 
+  position: relative;
     background: url("img/ellasfella.JPG");
     background-size: cover;
     -webkit-background-size: cover;
@@ -422,6 +425,7 @@ header {
   }
 
   .card-inner1 {
+    position: relative;
     height: 100%;
     background-image: url("img/card1.jpg");
     background-position: center;
@@ -431,6 +435,7 @@ header {
     border-radius: 5rem;
   }
   .card-inner2 {
+    position: relative;
     height: 100%;
     background-image: url("img/card2.jpg");
     background-position: center;
@@ -524,6 +529,7 @@ header {
   }
 
   .slider .carousel1 {
+    position: relative;
     background-image: url("img/carousel1.JPG");
     background-position: center;
     background-size: cover;
@@ -533,6 +539,7 @@ header {
     background-repeat: no-repeat;
   }
   .slider .carousel2 {
+    position: relative;
     background-image: url("img/carousel2.JPG");
     background-position: center;
     background-size: cover;
@@ -542,6 +549,7 @@ header {
     background-repeat: no-repeat;
   }
   .slider .carousel3 {
+    position: relative;
     background-image: url("img/carousel3.JPG");
     background-position: center;
     background-size: cover;
@@ -551,6 +559,7 @@ header {
     background-repeat: no-repeat;
   }
   .slider .carousel4 {
+    position: relative;
     background-image: url("img/carousel4.JPG");
     background-position: center;
     background-size: cover;
@@ -560,6 +569,7 @@ header {
     background-repeat: no-repeat;
   }
   .slider .carousel5 {
+    position: relative;
     background-image: url("img/carousel5.JPG");
     background-position: center;
     background-size: cover;
@@ -649,6 +659,7 @@ header {
   }
 
   .fella-img img{
+    position: relative;
     object-fit: cover;
     overflow: hidden;
     height: 20rem;
@@ -801,6 +812,7 @@ header {
   }
 
   #mobile-aboutus .banner{
+    position: relative;
     background-image: url("img/aboutus.JPG");
     background-size: cover;
     -webkit-background-size: cover;
@@ -849,6 +861,7 @@ header {
 }
 
 #mobile-package .banner {
+  position: relative;
   background-image: url("img/partypackage.JPG");
   background-size: cover;
   -webkit-background-size: cover;
@@ -881,6 +894,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 #mobile-fella .banner{
+  position: relative;
   background-image: url("img/ellasfella.JPG");
   background-size: cover;
   -webkit-background-size: cover;
@@ -1066,6 +1080,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .mobile-card-img1 {
+  position: relative;
   background-image: url("img/card1.jpg");
   background-position: center center;
   background-size: cover;
@@ -1076,6 +1091,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .mobile-card-img2 {
+  position: relative;
   background-image: url("img/card2.jpg");
   background-position: center center;
   background-size: cover;
@@ -1086,6 +1102,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .mobile-card-img3 {
+  position: relative;
   background-image: url("img/card3.jpg");
   background-position: center center;
   background-size: cover;
@@ -1147,6 +1164,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .fella1{
+  position: relative;
   background-image: url("img/fella1.jpg");
   background-position: center center;
   background-size: cover;
@@ -1156,6 +1174,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .fella2{
+  position: relative;
   background-image: url("img/fella2.jpg");
   background-position: center center;
   background-size: cover;
@@ -1165,6 +1184,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .fella3{
+  position: relative;
   background-image: url("img/fella3.jpg");
   background-position: center center;
   background-size: cover;
@@ -1175,6 +1195,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 
 
 .fella4{
+  position: relative;
   background-image: url("img/fella4.jpg");
   background-position: center center;
   background-size: cover;
@@ -1184,6 +1205,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .fella5{
+  position: relative;
   background-image: url("img/fella5.jpg");
   background-position: center center;
   background-size: cover;
