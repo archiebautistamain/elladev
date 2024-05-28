@@ -660,6 +660,11 @@ header {
     color: var(--secoundary);
   }
 
+  .fella-img {
+    display: flex;
+    justify-content: center;
+  }
+
   .fella-img img{
     position: relative;
     object-fit: cover;
@@ -670,21 +675,19 @@ header {
   }
 
   .fella-text h1{
-    font-size: 2.5rem;
+    font-size: 1.8vw;
     color: var(--secoundary);
     text-shadow: none !important;
   }
 
   .fella-text p {
-    font-size: 2rem;
+    font-size: 1.5vw;
     color: var(--secoundary);
     text-shadow: none !important;
   }
 
 
-  .fella-row div {
-    margin-left: 5rem;
-  }
+
 
   .fella-2nd {
     background-color: #f3b0d0;
