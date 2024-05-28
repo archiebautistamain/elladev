@@ -352,6 +352,7 @@ header {
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 5rem;
+    position: relative;
 }
 
 .footer-icons{
