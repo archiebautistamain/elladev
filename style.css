@@ -475,6 +475,7 @@ header {
     font-size: 3rem;
     color: var(--secoundary);
     font-weight: bold;
+    text-shadow: none !important;
   }
 
   .inner-carousel img{
