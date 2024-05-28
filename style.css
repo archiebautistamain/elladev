@@ -118,14 +118,14 @@ header {
 
   .header-logo h1{
     font-family: logo;
-    font-size: 20rem;
+    font-size: 20vh;
     color: white;
   }
 
   .header-sub p{
     color: white; 
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 5vh;
+    line-height: 5vh;
   }
 
   .header-highlight{
@@ -142,11 +142,11 @@ header {
   
   .header-desc{
     color: white;
-    font-size: 2rem;
+    font-size: 2vh;
   }
 
   .header-buttons a {
-    width: 25rem !important;
+    width: 25vw !important;
     margin-right: 1rem;
   }
 
@@ -179,16 +179,16 @@ header {
 
 #desktop #aboutus .banner .container h1{
     color: white;
-    font-size: 10rem;
+    font-size: 10vh;
 }
 
 #desktop #aboutus .aboutus-desc{
-    padding-top: 4rem;
+    padding-top: 4vh;
 }
 
 #desktop #aboutus .aboutus-desc p{
     color: var(--secoundary);
-    font-size: 3rem;
+    font-size: 3vh;
     text-shadow: none !important;
 }
 
@@ -197,9 +197,10 @@ header {
 }
 
 .desktop-button{
-    font-size: 3rem;
+    font-size: 4vh !important;
     color: var(--secoundary);
 }
+
 
 #desktop #package-home {
     height: 100vh;
@@ -221,26 +222,26 @@ header {
 
 #desktop #package-home .banner .container h1{
     color: white;
-    font-size: 10rem;
+    font-size: 10vh;
 }
 
 #desktop #package-home .package-desc{
-    padding-top: 4rem;
+    padding-top: 4vh;
 }
 
 #desktop #package-home .package-desc p{
     color: var(--secoundary);
-    font-size: 3rem;
+    font-size: 3vh;
     text-shadow: none !important;
 }
 
 #desktop #package-home .package-desc .package-button{
     float: right;
-    margin-top: 5rem;
+    margin-top: 5vh;
 }
 
 .desktop-button{
-    font-size: 3rem;
+    font-size: 4vh;
     color: var(--secoundary);
 }
 
@@ -264,22 +265,22 @@ header {
 
 #desktop #fella .banner .container h1{
     color: white;
-    font-size: 10rem;
+    font-size: 10vh;
 }
 
 #desktop #fella .fella-desc{
-    padding-top: 4rem;
+    padding-top: 4vh;
 }
 
 #desktop #fella .fella-desc p{
     color: var(--secoundary);
-    font-size: 3rem;
+    font-size: 3vh;
     text-shadow: none !important;
 }
 
 #desktop #fella .fella-desc .fella-button{
     float: right;
-    margin-top: 5rem;
+    margin-top: 5vh;
 }
 
 .desktop-button{
@@ -292,28 +293,28 @@ header {
 }
 
 .location-header {
-    font-size: 10rem;
+    font-size: 10vh;
     color: var(--secoundary);
 }
 
 .location-icon{
-    width: 10rem;
+    width: 10vh;
     margin-bottom: 5rem;
 }
 
 .location-h2{
-    font-size: 3.5rem;
+    font-size: 3.5vh;
     color: var(--secoundary);
 }
 
 .location-p {
-    font-size: 2.5rem;
+    font-size: 2.5vh;
     color: var(--secoundary);
     text-shadow: none !important;
 }
 
 .location-button button {
-    font-size: 3rem;
+    font-size: 3vh;
     background-color: var(--secoundary);
     border-radius: 1rem;
     margin-bottom: 5rem;
@@ -325,24 +326,24 @@ header {
 }
 
 .faqs-header {
-    font-size: 10rem;
+    font-size: 10vh;
     color: var(--secoundary);
 }
 
 .faqs-icon{
-    width: 10rem;
+    width: 10vh;
     margin-bottom: 5rem;
 }
 
 .faqs-h2{
-    font-size: 3.5rem;
+    font-size: 3.5vh;
     color: var(--secoundary);
 }
 
 .faqs-p {
-    font-size: 2.5rem;
+    font-size: 2.5vh;
     color: var(--secoundary);
-    margin-bottom: 5rem;
+    margin-bottom: 5vh;
     text-shadow: none !important;
 }
 
@@ -354,7 +355,7 @@ header {
 }
 
 .footer-icons{
-    width: 7rem;
+    width: 7vh;
     margin-right: 2rem;
 }
 
@@ -371,7 +372,7 @@ header {
 }
 
 .page-title{
-    font-size: 7rem;
+    font-size: 7vh;
     color: var(--secoundary);
     margin-bottom: 5rem;
 }
@@ -701,8 +702,8 @@ header {
 
   .contact-title {
     color: var(--secoundary);
-    font-size: 7rem;
-    margin-bottom: 5rem;
+    font-size: 7vh;
+    margin-bottom: 5vh;
   }
 
   .contact-form {
@@ -710,7 +711,7 @@ header {
   }
 
   .contact-form label {
-    font-size: 2rem;
+    font-size: 2vh;
     color: var(--secoundary);
   }
 
@@ -732,7 +733,7 @@ header {
     color: white;
     background-color: var(--secoundary);
     width: 100%;
-    font-size: 3rem;
+    font-size: 3vh;
     border-radius: 2rem;
   }
 
@@ -743,12 +744,13 @@ header {
 
   .download-title {
     color: var(--secoundary);
-    font-size: 5rem;
+    font-size: 5vh;
     margin-bottom: 5rem;
   }
 
   .download-video video {
     width: 70%;
+    border-radius: 3rem;
   }
 
 
@@ -977,7 +979,8 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 #mobile-download .download-title{
-  font-size: x-large;
+  font-size: 7vh;
+
 }
 
 #mobile-download .download-video{
