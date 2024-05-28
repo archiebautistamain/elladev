@@ -165,6 +165,9 @@ header {
 #desktop #aboutus .banner { 
     background: url("img/aboutus.JPG");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -203,6 +206,9 @@ header {
 #desktop #package-home .banner { 
     background: url("img/partypackage.JPG");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -242,6 +248,9 @@ header {
 #desktop #fella .banner { 
     background: url("img/ellasfella.JPG");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -427,6 +436,9 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     border: solid 4px var(--secoundary);
     border-radius: 5rem;
   }
@@ -515,30 +527,45 @@ header {
     background-image: url("img/carousel1.JPG");
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
   }
   .slider .carousel2 {
     background-image: url("img/carousel2.JPG");
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
   }
   .slider .carousel3 {
     background-image: url("img/carousel3.JPG");
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
   }
   .slider .carousel4 {
     background-image: url("img/carousel4.JPG");
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
   }
   .slider .carousel5 {
     background-image: url("img/carousel5.JPG");
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
   }
 
@@ -776,6 +803,9 @@ header {
   #mobile-aboutus .banner{
     background-image: url("img/aboutus.JPG");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     height: 100%;
@@ -821,6 +851,9 @@ header {
 #mobile-package .banner {
   background-image: url("img/partypackage.JPG");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   height: 100%;
@@ -850,6 +883,9 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 #mobile-fella .banner{
   background-image: url("img/ellasfella.JPG");
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   height: 100%;
@@ -1033,6 +1069,9 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   background-image: url("img/card1.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   border-radius: 2rem;
 }
 
@@ -1040,6 +1079,9 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   background-image: url("img/card2.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   border-radius: 2rem;
 }
 
@@ -1047,6 +1089,9 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   background-image: url("img/card3.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   border-radius: 2rem;
 }
 
@@ -1105,18 +1150,27 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   background-image: url("img/fella1.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .fella2{
   background-image: url("img/fella2.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .fella3{
   background-image: url("img/fella3.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 
@@ -1124,12 +1178,18 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   background-image: url("img/fella4.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .fella5{
   background-image: url("img/fella5.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .fella-reviews h2{
   font-size: large;
