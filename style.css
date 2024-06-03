@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: glacial;
+  src: url("fonts/GlacialIndifference-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: glacialBold;
+  font-weight: bold;
+  src: url("fonts/GlacialIndifference-Bold.otf") format("opentype");
+}
+
 :root {
     --primary: #4b302c;
     --primary2: #946230;
@@ -51,7 +63,8 @@ body {
 }
 
 .nav-link {
-    font-size: 2rem;
+    font-family: glacialBold;
+    font-size: 14pt;
     margin-left: 3px;
     margin-right: 3px;
     color: white !important;
@@ -73,7 +86,7 @@ body {
 header {
     position: relative;
     background-color: black;
-    height: 92vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -102,7 +115,7 @@ header {
   
   header .overlay {
     position: absolute;
-    top: 0;
+    top: 5rem;
     left: 0;
     height: 100%;
     width: 100%;
@@ -112,6 +125,7 @@ header {
   }
 
   .header-content {
+    height: 100vh;
     position: relative;
     z-index: 3;
   }
@@ -146,7 +160,7 @@ header {
   }
 
   .header-buttons a {
-    width: 25vw !important;
+    width: 15vw !important;
     margin-right: 1rem;
   }
 
@@ -170,11 +184,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center; 
     height: 50vh; /* 100% of viewport height */
     margin: 0 auto; 
-    position: relative; 
 }
 
 #desktop #aboutus .banner .container h1{
@@ -187,8 +199,9 @@ header {
 }
 
 #desktop #aboutus .aboutus-desc p{
+    font-family: glacial;
     color: var(--secoundary);
-    font-size: 3vh;
+    font-size: 16pt;
     text-shadow: none !important;
 }
 
@@ -196,8 +209,45 @@ header {
     float: right;
 }
 
+#desktop #about-us .banner { 
+  position: relative;
+    background: url("img/aboutus.JPG");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 50vh; /* 100% of viewport height */
+    margin: 0 auto; 
+}
+
+.about-us-sec {
+  margin-top: 20rem;
+}
+
+#desktop #about-us .banner .container h1{
+  color: white;
+  font-size: 10vh;
+}
+
+#desktop #about-us .aboutus-desc{
+  padding-top: 4vh;
+}
+
+#desktop #about-us .aboutus-desc p{
+  font-family: glacial;
+  color: var(--secoundary);
+  font-size: 16pt;
+  text-shadow: none !important;
+}
+
+#desktop #about-us .aboutus-desc .aboutus-button{
+  float: right;
+}
+
 .desktop-button{
-    font-size: 4vh !important;
+    font-size: 1.8rem !important;
     color: var(--secoundary);
 }
 
@@ -213,7 +263,6 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center; 
     height: 50vh; /* 100% of viewport height */
     margin: 0 auto; 
@@ -230,8 +279,9 @@ header {
 }
 
 #desktop #package-home .package-desc p{
+    font-family: glacial;
     color: var(--secoundary);
-    font-size: 3vh;
+    font-size: 16pt;
     text-shadow: none !important;
 }
 
@@ -256,8 +306,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+    background-position: top center; 
     height: 50vh; /* 100% of viewport height */
     margin: 0 auto; 
     position: relative; 
@@ -273,8 +322,9 @@ header {
 }
 
 #desktop #fella .fella-desc p{
+    font-family: glacial;
     color: var(--secoundary);
-    font-size: 3vh;
+    font-size: 16pt;
     text-shadow: none !important;
 }
 
@@ -282,6 +332,48 @@ header {
     float: right;
     margin-top: 5vh;
 }
+
+
+#fella-page{
+  margin-top: 8vh;
+}
+
+#fella-page .page-banner {
+  height: 100vh;
+}
+
+#desktop #fella-page .banner { 
+  
+  position: relative;
+    background: url("img/ellasfella.JPG");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    height: 50vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative; 
+}
+
+#desktop #fella-page .banner .container h1{
+    color: white;
+    font-size: 10vh;
+}
+
+#desktop #fella-page.fella-desc{
+    padding-top: 4vh;
+}
+
+#desktop #fella-page .fella-desc p{
+    margin-top: 5rem;
+    font-family: glacial;
+    color: var(--secoundary);
+    font-size: 16pt;
+    text-shadow: none !important;
+}
+
 
 .desktop-button{
     font-size: 3rem;
@@ -303,20 +395,24 @@ header {
 }
 
 .location-h2{
-    font-size: 3.5vh;
+    font-size: 16pt;
+    font-family: glacialBold;
     color: var(--secoundary);
 }
 
 .location-p {
-    font-size: 2.5vh;
+    font-size: 16pt;
+    font-family: glacial;
     color: var(--secoundary);
     text-shadow: none !important;
 }
 
 .location-button button {
-    font-size: 3vh;
+    font-size: 15.9pt;
+    font-family: glacialBold;
     background-color: var(--secoundary);
-    border-radius: 1rem;
+    border-radius: .5rem;
+    padding: 0 3rem;
     margin-bottom: 5rem;
     color: var(--bg);
 }
@@ -336,12 +432,14 @@ header {
 }
 
 .faqs-h2{
-    font-size: 3.5vh;
+    font-size: 16pt;
+    font-family: glacialBold;
     color: var(--secoundary);
 }
 
 .faqs-p {
-    font-size: 2.5vh;
+    font-size: 16pt;
+    font-family: glacial;
     color: var(--secoundary);
     margin-bottom: 5vh;
     text-shadow: none !important;
@@ -361,20 +459,22 @@ header {
 }
 
 .footer-button {
-    font-size: 2rem;
+    font-family: glacialBold;
+    font-size: 16pt;
 }
 
 
 #about-us {
-    height: 90vh;
+    height: auto;
     margin-top: 10vh;
     width: 100vw;
     overflow-x: hidden;
 }
 
 .page-title{
-    font-size: 7vh;
+    font-size: 3rem;
     color: var(--secoundary);
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
@@ -391,8 +491,8 @@ header {
             border-radius: 5rem;
   }
   .flip .card {
-      width: 100%;
-      height: 50rem;
+      width: 75%;
+      height: 30rem;
       -webkit-transform-style: preserve-3d;
       -webkit-transition: 0.5s;
       transform-style: preserve-3d;
@@ -460,7 +560,7 @@ header {
   }
 
   .card-text h3{
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--secoundary);
   }
 
@@ -472,7 +572,7 @@ header {
     padding-top: 2rem;
   }
   .card-desc p {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--secoundary);
     font-weight: bold;
     text-shadow: none !important;
@@ -488,17 +588,16 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100%;
   }
   .carousel-title h1{
-    font-size: 10rem;
+    font-size: 5rem;
     color: var(--secoundary);
     margin-bottom: 5rem;
   }
 
   .slider-for div{
-    height: 30rem;
+    min-height: 50vh;
     width: 90vw;
   }
 
@@ -508,15 +607,21 @@ header {
   }
 
   .slider div h3{
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
     height: 100%;
     display: flex;
     align-items: end;
     justify-content: center;
     color: var(--secoundary2);
+
   }
 
+  .slick-slide h3 {
+    height: 100%;
+  }
   .slider-for div h3{
-    font-size: 3rem;
+    height: 100%;
+    font-size: 2rem;
     padding-left: 20rem;
     padding-right: 20rem;
   }
@@ -701,8 +806,11 @@ header {
   }
 
   .contact-title {
+
     color: var(--secoundary);
-    font-size: 7vh;
+    font-size: 23pt;
+    font-family: glacialBold;
+    margin-top: 5rem;
     margin-bottom: 5vh;
   }
 
@@ -711,7 +819,8 @@ header {
   }
 
   .contact-form label {
-    font-size: 2vh;
+    font-size: 15.9pt;
+    font-family: glacialBold;
     color: var(--secoundary);
   }
 
@@ -732,9 +841,11 @@ header {
   .contact-form button {
     color: white;
     background-color: var(--secoundary);
-    width: 100%;
-    font-size: 3vh;
-    border-radius: 2rem;
+    color: var(--bg);
+    width: 30%;
+    font-size: 15.9pt;
+    font-family: glacialBold;
+    border-radius: .5rem;
   }
 
 
@@ -824,6 +935,7 @@ header {
     background-attachment: fixed;
     height: 100%;
   }
+
 
   .mobile-text .col-12 h1{
     font-size: x-large;
@@ -924,7 +1036,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 
 
 #mobile-location{
-  height: 100vh;
+  margin-bottom: 10rem;
   width: 100vw;
   margin-top: 5rem;
   overflow-x: hidden;
@@ -1070,6 +1182,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   font-weight: bold;
   color: var(--secoundary);
   margin-bottom: 3rem;
+  margin-top: 15vh;
 }
 
 .mobile-card-title{
@@ -1118,9 +1231,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 .mobile-text h3{
   font-size: small;
   color: var(--secoundary);
-  line-height: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  line-height: 2rem;
 }
 
 #mobile-carousel{
@@ -1235,24 +1346,370 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   
 }
 
-@supports (-webkit-touch-callout: none) {
-  #desktop #aboutus .banner,
-  #desktop #package-home .banner,
-  #desktop #fella .banner,
-  #mobile-aboutus .banner,
-  #mobile-package .banner,
-  #mobile-fella .banner {
-    background-attachment: scroll;
-  }
+.searchBar {
+  margin-top: 3rem;
+  width: 100vw;
 }
 
-@supports not (-webkit-touch-callout: none) {
-  #desktop #aboutus .banner,
-  #desktop #package-home .banner,
-  #desktop #fella .banner,
-  #mobile-aboutus .banner,
-  #mobile-package .banner,
-  #mobile-fella .banner {
-    background-attachment: fixed;
-  }
+.searchBar div{
+  background-color: rgba(255, 246, 237, .8);
+  border: solid 2px var(--secoundary);
+  width: 60%;
+}
+
+.searchBar input {
+  background-color: transparent;
+  color: var(--secoundary) !important;
+  font-family: glacialBold;
+  font-size: 15.3pt;
+  padding-left: 2rem;
+  width: 80%;
+}
+
+.searchBar input::placeholder {
+  color: var(--secoundary);
+}
+
+.searchBar button {
+  background-color: var(--secoundary);
+  width: 10rem;
+}
+
+.searchBar button img {
+  width: 2rem;
+}
+
+#none {
+  height: 100vh;
+}
+
+#none .banner{
+  height: 100%;
+  position: relative;
+  background-image: url("img/none.JPG");
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.none-btn {
+  font-family: glacialBold;
+  font-size: 27.6pt;
+  color: var(--secoundary);
+}
+
+.qoute{
+  background-color: white;
+  position: relative;
+  padding: 3rem 3rem;
+  border-top-right-radius: 20rem;
+  border-bottom-left-radius: 20rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.qoute-open {
+  position: absolute;
+  width: 5rem;
+  top: -3rem;
+  left: 2rem;
+}
+
+.qoute-text {
+  color: var(--secoundary);
+  font-family: glacialBold;
+  font-size: 15.5pt;
+}
+
+.qoute-close {
+  position: absolute;
+  width: 5rem;
+  bottom: -3rem;
+  right: 2rem;
+}
+
+
+.packages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 10vh;
+  width: 50%;
+}
+
+.package {
+  background: white;
+  padding: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+figure img {
+  width: 100%;
+}
+
+
+.package h3 {
+  font-size: 10pt;
+  font-family: glacialBold;
+  border-radius: 5rem;
+  background: #CD7F32;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+
+.package .price {
+  margin: 1.5rem 0;
+  font-size: 16pt;
+  font-family: glacialBold;
+}
+
+.price span {
+  font-size: 16pt;
+  font-family: glacialBold;
+  color: var(--secoundary);
+}
+.list {
+  margin-bottom: 3rem;
+  display: grid;
+  gap: 1rem;
+}
+.list p {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  text-shadow: none;
+  font-family: glacial;
+  color: var(--secoundary);
+  font-size: 10pt;
+}
+.list p i {
+  color: var(--secoundary);
+  font-size: 16pt;
+}
+.package button {
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  font-family: glacialBold;
+  font-size: 16pt;
+}
+
+figure {
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+figure > * {
+  grid-area: 1/1;
+  transition: .4s;
+}
+figure figcaption {
+  display: grid;
+  align-items: end;
+  font-family: sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #0000;
+  padding: .75rem;
+  background: var(--c,#0009);
+  clip-path: inset(0 var(--_i,100%) 0 0);
+  -webkit-mask:
+    linear-gradient(#000 0 0),
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  margin: -1px;
+}
+figure:hover figcaption{
+  --_i: 0%;
+}
+figure:hover img {
+  transform: scale(1.2);
+}
+
+.location-page-title {
+  font-family: glacialBold;
+  font-size: 23pt;
+  margin-top: 5rem;
+  color: var(--secoundary);
+}
+
+#faqs{
+  height: 100vh;
+  margin-top: 8vh;
+}
+
+.faqs-title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: 23pt;
+  font-family: glacialBold;
+  color: var(--secoundary);
+}
+
+#mobile-faqs {
+  margin-top: 8vh;
+}
+
+.mobile-faqs {
+  margin-bottom: 2rem;
+  background-color: var(--secoundary2);
+}
+
+.faqs-mobile-question {
+  font-size: 12pt;
+  font-family: glacialBold;
+  color: var(--secoundary);
+}
+
+#placeorder {
+  text-shadow: none;
+  font-size: 12pt;
+  font-family: glacial;
+  color: var(--bg)
+}
+
+#ellaapp {
+  text-shadow: none;
+  font-size: 12pt;
+  font-family: glacial;
+  color: var(--bg)
+}
+
+#contactella {
+  text-shadow: none;
+  font-size: 12pt;
+  font-family: glacial;
+  color: var(--bg)
+}
+
+#payorder {
+  text-shadow: none;
+  font-size: 12pt;
+  font-family: glacial;
+  color: var(--bg)
+}
+
+#locateella {
+  text-shadow: none;
+  font-size: 12pt;
+  font-family: glacial;
+  color: var(--bg)
+}
+
+#faqs-footer {
+  position: relative;
+  margin-bottom: 4rem;
+  background-color: var(--secoundary);
+  padding: 1rem 0;
+}
+
+#faqs-footer button {
+  font-size: 23pt;
+  font-family: glacialBold;
+  color: var(--secoundary);
+
+}
+
+#mobile-location .container {
+  width: 100vw;
+  margin-top: 10vh;
+  overflow-x: scroll;
+}
+
+#mobile-location .container::-webkit-scrollbar {
+  height: .2rem;
+}
+
+
+
+.location-mobile-title h1 {
+  font-size: 16pt;
+  font-family: glacialBold;
+  color: var(--secoundary);
+}
+
+#mobile-location .searchBar {
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+}
+
+#mobile-location input {
+  font-size: 10pt !important;
+}
+
+.location-icon img{
+  width: 5rem;
+}
+
+.inner-location {
+  width: 200%;
+}
+
+
+
+.mobile-location-caption h1{
+  font-size: 10pt;
+  font-family: glacialBold;
+  color: var(--secoundary);
+}
+
+.mobile-location-caption h2 {
+  font-size: 10pt;
+  font-family: glacial;
+  color: var(--secoundary);
+}
+
+.location-mobile-button {
+  font-size: 10pt;
+  font-family: glacialBold;
+  color: var(--bg);
+  background-color: var(--secoundary);
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+
+#mobile-contact {
+  height: auto !important;
+  width: 100vw;
+}
+
+#mobile-contact input {
+  font-size: 10pt;
+}
+
+#mobile-contact .contact-title {
+  font-size: 16pt !important ;
+}
+
+#mobile-contact label{
+  font-size: 10pt !important;
+}
+
+#mobile-contact .contact-form {
+  width: 98% !important;
+}
+
+#mobile-contact .contact-submit {
+  font-size: 12pt !important;
+}
+
+#location-mobile-footer {
+  background-color: var(--secoundary); 
+}
+
+#location-mobile-footer .mobile-footer-button {
+  font-size: 12pt !important;
+  font-family: glacialBold;
+  color: var(--secoundary);
 }
