@@ -932,20 +932,26 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-    height: 100%;
+    height: 40%;
   }
 
 
   .mobile-text .col-12 h1{
-    font-size: x-large;
+    font-size: 12pt;
+    font-family: glacialBold;
     margin-bottom: 5rem;
+    margin-top: 5rem;
   }
 
   .mobile-text .aboutus-desc p{
-    font-size: small;
+    margin-top: 5rem;
+    font-size: 10pt;
+    font-family: glacial;
+    color: var(--secoundary) !important;
+    text-shadow: none !important;
     padding-left: 1rem;
     padding-right: 1rem;
+
   }
 
 .mobile-text .col-12 h1, .mobile-text .aboutus-desc p{
@@ -959,13 +965,13 @@ header {
 
 .mobile-button {
   position: absolute;
-  bottom: -10rem;
   right: -5rem;
   transform: translate(-50%);
 }
 
 .mobile-button button {
-  font-size: 2rem;
+  font-size: 12pt !important;
+  font-family: glacialBold;
 }
 
 #mobile-package {
@@ -982,12 +988,15 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  height: 100%;
+  height: 40%;
 }
 
 .mobile-text .package-desc p{
-  font-size: small;
+  margin-top: 5rem;
+  font-size: 10pt;
+  color: var(--secoundary) !important;
+  text-shadow: none !important;
+  font-family: glacial;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -1015,12 +1024,15 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  height: 100%;
+  height: 40%;
 }
 
 .mobile-text .fella-desc p{
-  font-size: small;
+  margin-top: 5rem;
+  font-size: 10pt;
+  font-family: glacial;
+  color: var(--secoundary) !important;
+  text-shadow: none !important;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -1091,7 +1103,8 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 #mobile-download .download-title{
-  font-size: 7vh;
+  font-size: 16pt;
+  font-family: glacialBold;
 
 }
 
@@ -1118,7 +1131,8 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .mobile-footer-button {
-  font-size: small !important;
+  font-size: 12pt !important;
+  font-family: glacialBold;
 }
 
 #mobile-partypackage{
