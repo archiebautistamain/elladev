@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="qrModal" class="modal fade" role="dialog" aria-labelledby="qrModal" aria-hidden="true"tabindex="-1">
@@ -105,11 +106,11 @@
             <div  class="banner">
                 <div class="container h-100 d-flex align-items-center">
                     <div class="row w-100">
-                        <div class="col-6">
+                        <div class="col-6" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                             <button type="button" class="rounded-pill none-btn px-5 mb-5" data-bs-toggle="modal" data-bs-target="#qrModal">DOWNLOAD NOW</button>
                             <div class="qoute w-100">
                                 <img src="img/qoute-open.png" class="img-fluid qoute-open" alt="">
-                                <div class="qoute-text">
+                                <div class="qoute-text ">
                                     Download the Ella App, earn Ella Beans, and receive amazing deals and prizes!
                                 </div>
                                 <img src="img/qoute-close.png" class="img-fluid qoute-close" alt="">
@@ -129,7 +130,7 @@
                     
                 </div>
             </div>
-            <div class="aboutus-desc px-5 mx-5">
+            <div class="aboutus-desc px-5 mx-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                 <p class="text-center px-5">Meet Ella, your neighborhood's newest barista, a sleek robot with a digital smile and a talent for crafting
                     the perfect cup of coffee. With advanced AI and precision engineering, Ella grinds beans, steams milk, and
                     pours espresso with flawless efficiency, all while engaging customers in friendly conversation. Eco-friendly
@@ -148,7 +149,7 @@
                     </div>
                 </div>
             </div>
-            <div class="package-desc px-5 mx-5">
+            <div class="package-desc px-5 mx-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                 <p class="text-center px-5">Consistency, Cleanliness, and the Savory taste of Italian Beans
                     arent the only things Ella aims to give you. We also want to share
                     what we have to offer to people and bring smiles to their faces.
@@ -167,7 +168,7 @@
                     </div>
                 </div>
             </div>
-            <div class="fella-desc px-5 mx-5">
+            <div class="fella-desc px-5 mx-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                 <p class="text-center px-5">Ella’s Fellas is a community where everyone can be an influencer. 
                     We encourage everyone to share their thoughts and experiences with
                     Ella. This way we can all create a common ground to share be
@@ -181,7 +182,7 @@
         
         
         <section id="download">
-            <div class="row">
+            <div class="row w-100">
                 <div class="col-12 download-title text-center">How to Download Ella App</div>
                 <div class="col-12 download-video d-flex justify-content-center">
                     <video controls>
@@ -217,7 +218,7 @@
                             </video>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-center p-5">
+                    <div class="col-12 d-flex justify-content-center p-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                         <div class="row justify-content-center">
                             <div class="col-11">
                                 <div class="hero-logo">
@@ -247,7 +248,7 @@
             <div class="container">
                 <div class="row mobile-text">
                     <div class="col-12">
-                        <div class="aboutus-desc px-5">
+                        <div class="aboutus-desc px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                             <p class="text-center">Meet Ella, your neighborhood's newest barista, a sleek robot with a digital smile and a talent for crafting
                                 the perfect cup of coffee. With advanced AI and precision engineering, Ella grinds beans, steams milk, and
                                 pours espresso with flawless efficiency, all while engaging customers in friendly conversation. Eco-friendly
@@ -268,7 +269,7 @@
             </div>
             <div class="container">
                 <div class="row mobile-text">
-                    <div class="col-12">
+                    <div class="col-12" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                         <div class="package-desc px-5">
                             <p class="text-center">Consistency, Cleanliness, and the Savory taste of Italian Beans
                                 arent the only things Ella aims to give you. We also want to share
@@ -287,7 +288,7 @@
             </div>
             <div class="container">
                 <div class="row mobile-text">
-                    <div class="col-12">
+                    <div class="col-12" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                         <div class="fella-desc px-5">
                             <p class="text-center">Ella’s Fellas is a community where everyone can be an influencer. 
                                 We encourage everyone to share their thoughts and experiences with
@@ -329,6 +330,11 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

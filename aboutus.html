@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="qrModal" class="modal fade" role="dialog" aria-labelledby="qrModal" aria-hidden="true"tabindex="-1">
@@ -86,7 +87,7 @@
                 
             </div>
           </div>
-          <div class="aboutus-desc px-5 mx-5">
+          <div class="aboutus-desc px-5 mx-5" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
               <p class="text-center px-5">Ella uses nothing but the finest and freshest Buscaglione Italian Beans in making <br/> your coffee. Along with its consistency and cleanliness, Ella is sure to bring you <br/> nothing but quality coffee every single time.</p>
           </div>
             <div class="container about-us-sec">
@@ -98,7 +99,7 @@
                 
             </div>
                 <div class="row w-100">
-                  <div class="col-4">
+                  <div class="col-4"  data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                       <div class="flip d-flex justify-content-center">
                         <div class="card"> 
                           <div class="face front h-100"> 
@@ -124,7 +125,7 @@
                         <p class="text-center">  YOUR COFFEE, ANYTIME.</p>
                       </div>
                     </div>
-                  <div class="col-4">
+                  <div class="col-4"  data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
                       <div class="flip d-flex justify-content-center">
                         <div class="card"> 
                             <div class="face front h-100"> 
@@ -151,7 +152,7 @@
                         <p class="text-center"> QUALITY COFFEE</p>
                       </div>
                     </div>
-                  <div class="col-4">
+                  <div class="col-4" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                       <div class="flip d-flex justify-content-center">
                         <div class="card"> 
                             <div class="face front h-100"> 
@@ -180,10 +181,11 @@
                   </div>
                   </div>
         </section>
-        <section id="carousel">
+        <section id="carousel"  data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out">
                 <div class="carousel-title">
                     <h1 class="text-center">Gallery</h1>
                 </div>
+                
                 <div class="slider slider-for">
                     <div class="carousel1 d-flex align-items-end"><h3 class="text-center"> Ella will bring
                         you consistency,
@@ -398,6 +400,11 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="app.js"></script>
+    
 </body>
 </html>

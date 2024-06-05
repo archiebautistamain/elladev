@@ -465,10 +465,9 @@ header {
 
 
 #about-us {
-    height: auto;
+    min-height: 100vh;
     margin-top: 10vh;
     width: 100vw;
-    overflow-x: hidden;
 }
 
 .page-title{
@@ -583,13 +582,17 @@ header {
   }
 
   #carousel {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
   }
+
+  
+  
   .carousel-title h1{
     font-size: 5rem;
     color: var(--secoundary);
@@ -1727,3 +1730,5 @@ figure:hover img {
   font-family: glacialBold;
   color: var(--secoundary);
 }
+
+
