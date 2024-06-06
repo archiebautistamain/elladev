@@ -2006,7 +2006,7 @@ figure:hover img {
 }
 
 .card-innerC4 {
-
+  position: relative;
   height: 100%;
   background-image: url("img/carousel4.JPG");
   background-position: center;
