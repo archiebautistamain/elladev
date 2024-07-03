@@ -121,7 +121,54 @@ function checkScroll() {
 
 window.addEventListener('scroll', checkScroll, false);
 window.addEventListener('resize', checkScroll, false);
+
+$("#pageSearch").on("input", function(){
+  let page = "";
+  const checkmobile = $("#mobile").hasClass("d-none");
+  console.log(checkmobile);
+  if(checkmobile){
+    page = "desktop"
+    
+  } else {
+    page = "mobile"
+  }
+  var searchText = $(this).val().trim();
+    removeHighlights(page); // Remove existing highlights
+    if (searchText !== '') {
+      highlightMatches(searchText, page);
+    }
+
+  
 });
+});
+
+function highlightMatches(searchText, page) {
+  var searchRegEx = new RegExp(searchText, 'gi'); // 'gi' for case insensitive and global search
+  var $pageContent = $(`#${page}`);
+  console.log($pageContent)
+
+  $pageContent.find('*').each(function() {
+    var $element = $(this);
+    // $element.html($element.html().replace(searchRegEx, function(match) {
+    //   return '<span class="highlight">' + match + '</span>';
+    // }));
+    // $element.text().indexOf(searchText), $element.text()
+    const position = $element.text().indexOf(searchText);
+    if($element.text().includes(searchText)){
+      console.log($element.text().substring([position],searchText.length));
+    }
+    
+    
+    
+  });
+}
+
+
+function removeHighlights(page) {
+  $(`#${page}`).find('.highlight').each(function() {
+    $(this).replaceWith($(this).text());
+  });
+}
 
 function removeActive(){
     $(".nav-link").each(function(){
