@@ -24,7 +24,7 @@
     border: none;
     outline: none;
     text-decoration: none;
-    color: var(--primary);
+    
 }
 @font-face {
     font-family: logo;
@@ -39,6 +39,7 @@ html {
 }
 
 body {
+    
     background: var(--bg);
     width: 100vw !important;
     overflow-x: hidden;
@@ -56,18 +57,20 @@ body {
 }
 
 .navbar{
-    background-color: var(--secoundary) !important;
+    background-color: var(--bg) !important;
     width: 100%;
     margin-right: 0;
-
+    box-shadow: 1px 12px 40px -1px rgba(0,0,0,0.23);
+-webkit-box-shadow: 1px 12px 40px -1px rgba(0,0,0,0.23);
+-moz-box-shadow: 1px 12px 40px -1px rgba(0,0,0,0.23);
 }
 
 .nav-link {
     font-family: glacialBold;
-    font-size: 14pt;
+    font-size: 12pt;
     margin-left: 3px;
     margin-right: 3px;
-    color: white !important;
+    color: var(--primary) !important;
 }
 
 .nav-item .active {
@@ -155,7 +158,7 @@ header {
   }
   
   .header-desc{
-    color: white;
+    color: var(--bg);
     font-size: 2vh;
   }
 
@@ -172,6 +175,18 @@ header {
   }
 
 
+
+#background-img{
+  position: absolute;
+    left: 0px;
+    top: -90%;
+    z-index: -1;
+    width: 60%;
+}
+
+#background-img img {
+  max-width: 60%;
+}
 
 #desktop #aboutus {
     height: 100vh;
@@ -200,7 +215,7 @@ header {
 
 #desktop #aboutus .aboutus-desc p{
     font-family: glacial;
-    color: var(--secoundary);
+    color: var(--primary);
     font-size: 18pt;
     text-shadow: none !important;
 }
@@ -237,7 +252,7 @@ header {
 
 #desktop #about-us .aboutus-desc p{
   font-family: glacial;
-  color: var(--secoundary);
+  color: var(--primary);
   font-size: 16pt;
   text-shadow: none !important;
 }
@@ -248,7 +263,7 @@ header {
 
 .desktop-button{
     font-size: 1.8rem !important;
-    color: var(--secoundary);
+    color: var(--bg);
 }
 
 
@@ -280,7 +295,7 @@ header {
 
 #desktop #package-home .package-desc p{
     font-family: glacial;
-    color: var(--secoundary);
+    color: var(--primary);
     font-size: 16pt;
     text-shadow: none !important;
 }
@@ -292,7 +307,8 @@ header {
 
 .desktop-button{
     font-size: 4vh;
-    color: var(--secoundary);
+    color: var(--bg);
+    background-color: var(--primary);
 }
 
 #desktop #fella {
@@ -323,7 +339,7 @@ header {
 
 #desktop #fella .fella-desc p{
     font-family: glacial;
-    color: var(--secoundary);
+    color: var(--primary);
     font-size: 16pt;
     text-shadow: none !important;
 }
@@ -369,7 +385,7 @@ header {
 #desktop #fella-page .fella-desc p{
     margin-top: 5rem;
     font-family: glacial;
-    color: var(--secoundary);
+    color: var(--primary);
     font-size: 16pt;
     text-shadow: none !important;
 }
@@ -377,7 +393,7 @@ header {
 
 .desktop-button{
     font-size: 3rem;
-    color: var(--secoundary);
+    color: var(--bg);
 }
 
 #location {
@@ -410,7 +426,7 @@ header {
 .location-button button {
     font-size: 15.9pt;
     font-family: glacialBold;
-    background-color: var(--secoundary);
+    background-color: var(--primary);
     border-radius: .5rem;
     padding: 0 3rem;
     margin-bottom: 5rem;
@@ -446,15 +462,26 @@ header {
 }
 
 #footer {
-    background-color: var(--secoundary);
+    border-top: var(--border);
+    background-color: var(--bg);
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 5rem;
 }
 
 .footer-icons{
-    width: 7vh;
-    margin-right: 2rem;
+  width: 5rem;
+  aspect-ratio: 1 / 1;
+  border: var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.footer-icons a {
+  font-size: x-large;
 }
 
 .footer-button {
@@ -856,8 +883,10 @@ header {
 
 
   .download-title {
+    font-family: glacialBold;
+    margin-top: 5rem;
     color: var(--secoundary);
-    font-size: 5vh;
+    font-size: 20pt;
     margin-bottom: 5rem;
   }
 
@@ -872,6 +901,8 @@ header {
   /* mobile view */
 
 
+
+  
 
   #mobile-video{
     margin-top: 120px;
@@ -948,10 +979,10 @@ header {
   }
 
   .mobile-text .aboutus-desc p{
-    margin-top: 5rem;
-    font-size: 14pt;
+    margin-top: 2rem;
+    font-size: 10pt;
     font-family: glacial;
-    color: var(--secoundary) !important;
+    color: var(--primary) !important;
     text-shadow: none !important;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -998,7 +1029,7 @@ header {
 .mobile-text .package-desc p{
   margin-top: 5rem;
   font-size: 14pt;
-  color: var(--secoundary) !important;
+  color: var(--primary) !important;
   text-shadow: none !important;
   font-family: glacial;
   padding-left: 1rem;
@@ -1032,10 +1063,10 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .mobile-text .fella-desc p{
-  margin-top: 5rem;
-  font-size: 14pt;
+  margin-top: 2rem;
+  font-size: 10pt;
   font-family: glacial;
-  color: var(--secoundary) !important;
+  color: var(--primary) !important;
   text-shadow: none !important;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1102,13 +1133,14 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 #mobile-download {
-
   width: 100vw;
 }
 
 #mobile-download .download-title{
-  font-size: 16pt;
+  margin-top: -5rem;
+  font-size: 20pt;
   font-family: glacialBold;
+  font-weight: bold;
 
 }
 
@@ -1124,8 +1156,9 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 #mobile-footer {
+  border-top: var(--border);
   width: 100%;
-  background-color: var(--secoundary);
+  background-color: var(--bg);
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 5rem;
@@ -1134,6 +1167,13 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 
 .mobile-footer-icons{
   width: 5rem;
+  aspect-ratio: 1 / 1;
+  border: var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
 }
 
 .mobile-footer-button {
@@ -1207,7 +1247,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 
 .mobile-card-title{
   font-size: large;
-  color: var(--secoundary);
+  color: var(--primary);
 }
 .mobile-card{
   height: auto;
@@ -1250,7 +1290,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 
 .mobile-text h3{
   font-size: small;
-  color: var(--secoundary);
+  color: var(--primary);
   line-height: 2rem;
 }
 
@@ -1284,7 +1324,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 .fella-card {
   background-color: var(--secoundary2);
   height: 15vh;
-  padding-top: 5%;
+  padding-top: 2%;
   width: 80%;
   border-radius: 3rem;
   margin-bottom: 1rem;
@@ -1414,7 +1454,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 .none-btn {
   font-family: glacialBold;
   font-size: 27.6pt;
-  color: var(--secoundary);
+  color: var(--primary);
 }
 
 .qoute{
@@ -1435,7 +1475,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .qoute-text {
-  color: var(--secoundary);
+  color: var(--primary);
   font-family: glacialBold;
   font-size: 15.5pt;
 }
@@ -2041,4 +2081,29 @@ figure:hover img {
 
 .mark{
   background-color: yellow;
+}
+
+ .white-icon {
+  color: #fff !important;
+}
+
+.cpr {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--primary);
+  font-family: glacial;
+  text-shadow: none;
+}
+
+.f-links {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.f-links a {
+  text-decoration: underline;
+  color: var(--primary);
+  font-size: 1.6rem;
 }
