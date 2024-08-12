@@ -13,9 +13,9 @@
 
 :root {
     --primary: #4b302c;
-    --primary2: #946230;
-    --secoundary: #d83289;
-    --secoundary2: #f3b0d0;
+    --primary2: #F7CFC5;
+    --secoundary: #92A99F;
+    --secoundary2: #647B68;
     --bg: #fff6ed;
     --border: 1px solid #4b302c1b;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .navbar{
-    background-color: var(--bg) !important;
+    background-color: #92a99f !important;
     width: 100%;
     margin-right: 0;
     box-shadow: 1px 12px 40px -1px rgba(0,0,0,0.23);
@@ -70,7 +70,7 @@ body {
     font-size: 12pt;
     margin-left: 3px;
     margin-right: 3px;
-    color: var(--primary) !important;
+    color: #FEFBE5 !important;
 }
 
 .nav-item .active {
@@ -146,7 +146,7 @@ header {
   }
 
   .header-highlight{
-    color: var(--secoundary2);
+    color: #F1BAD6;
     position: relative;
   }
 
@@ -263,7 +263,7 @@ header {
 
 .desktop-button{
     font-size: 1.8rem !important;
-    color: var(--bg);
+    color: var(--secoundary2);
 }
 
 
@@ -308,7 +308,7 @@ header {
 .desktop-button{
     font-size: 4vh;
     color: var(--bg);
-    background-color: var(--primary);
+    background-color: var(--secoundary2);
 }
 
 #desktop #fella {
@@ -339,7 +339,6 @@ header {
 
 #desktop #fella .fella-desc p{
     font-family: glacial;
-    color: var(--primary);
     font-size: 16pt;
     text-shadow: none !important;
 }
@@ -385,7 +384,6 @@ header {
 #desktop #fella-page .fella-desc p{
     margin-top: 5rem;
     font-family: glacial;
-    color: var(--primary);
     font-size: 16pt;
     text-shadow: none !important;
 }
@@ -413,7 +411,7 @@ header {
 .location-h2{
     font-size: 16pt;
     font-family: glacialBold;
-    color: var(--primary);
+    color: var(--primary2);
 }
 
 .location-p {
@@ -426,7 +424,7 @@ header {
 .location-button button {
     font-size: 15.9pt;
     font-family: glacialBold;
-    background-color: var(--primary);
+    background-color: var(--secoundary2);
     border-radius: .5rem;
     padding: 0 3rem;
     margin-bottom: 5rem;
@@ -932,7 +930,7 @@ header {
   }
 
   .hero-highlight{
-    color: var(--secoundary);
+    color: #F1BAD6;
     position: relative;
   }
 
@@ -1390,13 +1388,13 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 .fella-reviews h2{
   font-size: large;
-  color: var(--primary);
+  color: var(--bg);
 }
 
 .fella-reviews p {
   font-size: small;
   text-shadow: none !important;
-  color: var(--secoundary);
+  color: var(--bg);
 }
 
 #mobile #fella-footer{
@@ -1411,12 +1409,12 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 
 .searchBar div{
   background-color: rgba(255, 246, 237, .8);
-  border: solid 2px var(--secoundary);
+  border: solid 2px #647B68;
 }
 
 .searchBar input {
   background-color: transparent;
-  color: var(--secoundary) !important;
+  color: #647B68 !important;
   font-family: glacialBold;
   font-size: 10pt;
   padding-left: 2rem;
@@ -1424,13 +1422,13 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .searchBar input::placeholder {
-  color: var(--secoundary);
+  color: #647B68;
 }
 
 .searchBar button {
-  background-color: var(--secoundary);
+  background-color: #647B68;
   width: 10rem;
-  border-color: var(--secoundary2);
+  border-color: #feede8;
 }
 
 .searchBar button img {
@@ -1453,40 +1451,86 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 }
 
 .none-btn {
+  margin-left: 5rem;
   font-family: glacialBold;
   font-size: 27.6pt;
-  color: var(--primary);
+  color: #feede8;
+  background-color:  #92A99F;
+}
+
+
+
+.qoute-offset{
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+}
+
+.qoute-offset:before { 
+  content:'';
+  border-top: 5px solid #92A99F;
+  border-right: 5px solid #92A99F;
+  border-top-right-radius:  8rem;
+  width: 90%;
+  height: 75%;
+  margin: 10px 20px;
+  top: -1.5rem;
+  right: -2rem;
+  position: absolute;
+}
+
+.qoute-offset:after { 
+  content:'';
+  border-left: 5px solid #92A99F;
+  border-bottom: 5px solid #92A99F;
+  border-bottom-left-radius: 8rem;
+  width: 90%;
+  height: 75%;
+  position: absolute;
+  margin: 20px 10px;
+  bottom: -2rem;
+  left: -2rem;
 }
 
 .qoute{
-  background-color: white;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  background-color:#feede8;
   position: relative;
-  padding: 3rem 3rem;
-  border-top-right-radius: 20rem;
-  border-bottom-left-radius: 20rem;
+  padding: 8rem 3rem;
+  border-top-right-radius: 8rem;
+  border-bottom-left-radius: 8rem;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 
 .qoute-open {
   position: absolute;
-  width: 5rem;
+  width: 10rem;
   top: -3rem;
-  left: 2rem;
+  left: -3rem;
+  background: transparent;
+  padding: 2rem;
 }
 
 .qoute-text {
-  color: var(--primary);
+  color: #92A99F;
   font-family: glacialBold;
   font-size: 15.5pt;
 }
 
 .qoute-close {
   position: absolute;
-  width: 5rem;
+  width: 10rem;
   bottom: -3rem;
-  right: 2rem;
+  right: -3rem;
+  background: transparent;
+  padding: 2rem;
 }
+
+
 
 
 .packages {
