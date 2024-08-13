@@ -411,7 +411,7 @@ header {
 .location-h2{
     font-size: 16pt;
     font-family: glacialBold;
-    color: var(--primary2);
+    color: var(--secoundary2);
 }
 
 .location-p {
@@ -826,9 +826,13 @@ header {
 
 
   .fella-2nd {
-    background-color: #f3b0d0;
+    background-color: var(--secoundary);
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .fella-2nd .fella-text h1, .fella-2nd .fella-text p{
+    color: var(--bg);
   }
 
   #contact {
