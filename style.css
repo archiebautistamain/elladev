@@ -341,6 +341,7 @@ header {
     font-family: glacial;
     font-size: 16pt;
     text-shadow: none !important;
+    color: var(--primary)
 }
 
 #desktop #fella .fella-desc .fella-button{
