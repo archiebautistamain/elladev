@@ -140,6 +140,45 @@ $("#pageSearch").on("input", function(){
 
   
 });
+
+$("#contact-form").on("submit", async function(e){
+  e.preventDefault();
+  let formData = new FormData(this);
+    let name = formData.get("name");
+    let email = formData.get("email");
+    let message = formData.get("message");
+    let body = `<p>Dear ELLA,</p><p><strong>${name}</strong> has sent you a message.</p><p><em><strong>${message}</strong></em></p>`;
+    Swal.fire({
+        title: "Please Wait..",
+        allowOutsideClick: false,
+        showCancelButton: false,
+        showConfirmButton: false,
+        allowEscapeKey: false,
+        willOpen: async function (e) {
+            Swal.showLoading();
+            let data = {
+                groupname: "ELLA CONTACT",
+                recipients: `${email}:notifications@iwantseats.com`,
+                message: body,
+            };
+            //console.log("send-data", data);
+            let input = `https://iwsenterprise.com/squareone/api_pasabuy_sendemail.aspx`;
+            let res = await axios.post(input, data, axiosConfig);
+            //console.log(res.data);
+            if (res.data === "SAVED") {
+                Swal.fire(
+                    "Thank you for contacting us.",
+                    "We appreciate that you've taken the time to write us, We'll get back to you very soon.",
+                    "success"
+                );
+                $("#contact-form").trigger("reset");
+            } else {
+                Swal.fire("Failed..", "", "error");
+                //console.log("response", res);
+            }
+        },
+    });
+})
 });
 
 function highlightMatches(searchText, page) {
