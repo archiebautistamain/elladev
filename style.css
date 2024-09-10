@@ -136,18 +136,73 @@ header {
   .header-logo h1{
     font-family: logo;
     font-size: 20vh;
-    color: white;
+    color: var(--bg);
+    margin-bottom: -5vh;
+    
+  }
+
+  .sublogo{
+    color: var(--bg) !important;
+    font-size: 3vh;
+    margin-top: -5rem !important;
+    font-weight: 700;
+
+  }
+
+  .header-sub {
+    position: relative;
+    border-radius: 20px; /* Adjust the border radius as needed */
+    overflow: hidden; /* Hide any overflow to ensure rounded corners */
+    background: transparent; /* Ensure the background is transparent */
+    padding-left: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+  .header-sub::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; 
+    height: 100%; 
+    background: var(--primary); 
+    border-radius: 20px; 
+    z-index: -1; 
+    
+  }
+
+  .header-subdesc, .header-subdesc2 {
+    color: var(--bg);
+  }
+
+  .header-subdesc {
+    font-size: 1.3rem;
+  }
+
+  .header-subdesc2 {
+    font-size: 1.4rem;
+    font-weight: bold;
   }
 
   .header-sub p{
-    color: white; 
+    padding-top: 1rem;
+    color: var(--bg); 
     font-size: 5vh;
-    line-height: 5vh;
+    line-height: .5;
+    text-shadow: none !important;
+    font-weight: 600;
   }
+
+  
 
   .header-highlight{
     color: var(--secoundary2);
     position: relative;
+    text-shadow: none !important;
+  }
+
+  .bold-header {
+    font-weight: 800 !important;
   }
 
   .header-highlight img{
@@ -162,12 +217,14 @@ header {
     font-size: 2vh;
   }
 
+
   .header-buttons a {
     width: 15vw !important;
     margin-right: 1rem;
   }
 
   .header-buttons button{
+    color: var(--bg);
     height: 5rem !important;
     width: 5rem !important;
     background-color: transparent;
@@ -1459,7 +1516,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   margin-left: 5rem;
   font-family: glacialBold;
   font-size: 27.6pt;
-  color: #feede8;
+  color: var(--bg);
   background-color:  #92A99F;
 }
 
