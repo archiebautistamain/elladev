@@ -156,21 +156,12 @@ header {
     background: transparent; /* Ensure the background is transparent */
     padding-left: 1rem;
     margin-top: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-  .header-sub::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%; 
-    height: 100%; 
+    padding: 1rem;
     background: var(--primary); 
-    border-radius: 20px; 
-    z-index: -1; 
-    
-  }
+    display: inline-block;
+}
+ 
+
 
   .header-subdesc, .header-subdesc2 {
     color: var(--bg);
