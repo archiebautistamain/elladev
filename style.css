@@ -157,19 +157,10 @@ header {
     padding-left: 1rem;
     margin-top: 1rem;
     padding-top: 1rem;
-}
-  .header-sub::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%; 
-    height: 100%; 
+    padding-bottom: 1rem;
     background: var(--primary); 
-    border-radius: 20px; 
-    z-index: -1; 
-    
-  }
+}
+  
 
   .header-subdesc, .header-subdesc2 {
     color: var(--bg);
@@ -219,7 +210,7 @@ header {
 
 
   .header-buttons a {
-    width: 15vw !important;
+    width: 12vw !important;
     margin-right: 1rem;
   }
 
