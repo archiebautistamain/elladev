@@ -16,7 +16,7 @@
     --primary2: #F7CFC5;
     --secoundary: #92A99F;
     --secoundary2: #647B68;
-    --bg: #fff6ed;
+    --bg: #FEFBE5;
     --border: 1px solid #4b302c1b;
 }
 *{
@@ -65,9 +65,16 @@ body {
 -moz-box-shadow: 1px 12px 40px -1px rgba(0,0,0,0.23);
 }
 
+.nav-button {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--secoundary2);
+  background-color: var(--bg);
+}
+
 .nav-link {
     font-family: glacialBold;
-    font-size: 12pt;
+    font-size: 16pt;
     margin-left: 3px;
     margin-right: 3px;
     color: #FEFBE5 !important;
@@ -122,7 +129,7 @@ header {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 0) 100%);
     opacity: 0.5;
     z-index: 1;
   }
@@ -157,7 +164,6 @@ header {
     padding-left: 1rem;
     margin-top: 1rem;
     padding: 1rem;
-    background: var(--primary); 
     display: inline-block;
 }
  
@@ -172,7 +178,7 @@ header {
   }
 
   .header-subdesc2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: bold;
   }
 
@@ -188,7 +194,7 @@ header {
   
 
   .header-highlight{
-    color: var(--secoundary2);
+    color: #92A99F ;
     position: relative;
     text-shadow: none !important;
   }
@@ -306,9 +312,6 @@ header {
   text-shadow: none !important;
 }
 
-#desktop #about-us .aboutus-desc .aboutus-button{
-  float: right;
-}
 
 .desktop-button{
     font-size: 1.8rem !important;
@@ -593,6 +596,18 @@ header {
     border: solid 4px var(--secoundary);
     border-radius: 5rem;
   }
+
+ .back1 {
+    background-image: url(img/card1.jpg);
+  }
+
+.back2 {
+    background-image: url(img/card2.jpeg);
+  }
+
+.back3 {
+    background-image: url(img/card3.png);
+  }
   
   .inner{
     margin:0px !important;
@@ -613,7 +628,7 @@ header {
   .card-inner2 {
     position: relative;
     height: 100%;
-    background-image: url("img/card2.jpg");
+    background-image: url("img/card2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -626,7 +641,7 @@ header {
   }
   .card-inner3 {
     height: 100%;
-    background-image: url("img/card3.jpg");
+    background-image: url("img/card3.png");
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -637,7 +652,7 @@ header {
 
   .card-text h3{
     font-size: 2rem;
-    color: var(--secoundary);
+    color: var(--bg);
   }
 
   .card{
@@ -938,15 +953,19 @@ header {
   .download-title {
     font-family: glacialBold;
     margin-top: 5rem;
-    color: var(--secoundary);
-    font-size: 20pt;
+    color: var(--bg);
     margin-bottom: 5rem;
+  }
+
+  .download-title h1 {
+    font-size: 30pt;
+    font-weight: bold;
   }
 
   .download-video video {
     width: 70%;
     border-radius: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     max-height: 100%;
   }
 
@@ -1507,14 +1526,14 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 .none-btn {
   margin-left: 5rem;
   font-family: glacialBold;
-  font-size: 27.6pt;
+  font-size: 20pt;
   color: var(--bg);
   background-color:  #92A99F;
 }
 
 
 
-.qoute-offset{
+/* .qoute-offset{
   background-color: transparent;
   height: 100%;
   position: absolute;
@@ -1533,9 +1552,9 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   top: -1.5rem;
   right: -2rem;
   position: absolute;
-}
+} */
 
-.qoute-offset:after { 
+/* .qoute-offset:after { 
   content:'';
   border-left: 5px solid #92A99F;
   border-bottom: 5px solid #92A99F;
@@ -1582,7 +1601,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
   right: -3rem;
   background: transparent;
   padding: 2rem;
-}
+} */
 
 
 
@@ -2208,4 +2227,64 @@ figure:hover img {
   text-decoration: underline;
   color: var(--primary);
   font-size: 1.6rem;
+}
+
+.tagline {
+  box-shadow: none !important;
+  text-shadow: none !important;
+  font-family: glacial
+}
+
+.tagline-head {
+  font-family: glacialBold;
+}
+
+.tagline-head, .tagline {
+  color: var(--bg) !important;
+}
+
+.sect {
+  margin-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.sect .right {
+  background-color: #92A8A0 !important;
+  color: var(--bg) !important;
+}
+.right-desc {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  color: var(--bg) !important;
+  font-size: 16pt !important;
+}
+
+.sect-btn {
+  position: absolute;
+  bottom: -7rem;
+}
+
+.sect-head {
+  font-size: 30pt !important;
+}
+
+.ella-download{
+  background-color: #92A8A0 !important;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.vid-btn {
+  width: 30rem;
+}
+
+.about-flavours {
+  color: black !important;
+  text-shadow: none !important;
+  font-family: glacial;
+}
+
+.flavours-head {
+  font-family: glacialBold;
+  color: var(--secoundary2) !important;
 }
