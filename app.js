@@ -179,6 +179,31 @@ $("#contact-form").on("submit", async function(e){
         },
     });
 })
+
+$('#card-carou .carousel').slick({
+  autoplaySpeed: 2000,
+  autoplay: true,
+  centerMode: true,
+  centerPadding: "60px",
+  infinite: true,
+  dots:true,
+  centerMode: true,
+  });
+
+  $(".fell-img").css("background-image", `url("img/ellahighlights1.jpg")`);
+  const imgs = [
+    "img/ellahighlights1.jpg","img/ellahighlights2.jpg","img/ellahighlights5.jpg"
+  ]
+  
+    setInterval(function(){
+      $(".fella-img").fadeOut(1000, function(){
+        randomImage = Math.floor( Math.random() * imgs.length);
+        $(".fella-img").css("background-image", `url("${imgs[randomImage]}")`)
+        $(".fella-img").fadeIn(1000);
+      })
+      
+    },3000)
+  
 });
 
 function highlightMatches(searchText, page) {

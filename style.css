@@ -2288,3 +2288,109 @@ figure:hover img {
   font-family: glacialBold;
   color: var(--secoundary2) !important;
 }
+
+.flavours-heading h1{
+  font-size: 30pt;
+  font-family: glacialBold;
+  font-weight: bold;
+  color: var(--secoundary2);
+}
+
+.flavours-heading .heading-highlight{
+  color: var(--secoundary);
+}
+
+.flavours-heading h3 {
+  color: var(--secoundary2);
+}
+
+.journey-heading h1{
+  font-size: 30pt;
+  font-family: glacialBold;
+  font-weight: bold;
+  color: var(--secoundary2);
+}
+
+#fella-hero {
+  height: 75vh;
+}
+
+#fella-hero .sect{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-right: 0;
+  padding-left: 3rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/ellasfella.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.fella-hero{
+  margin-top: 10rem !important;
+}
+
+.ella-heading{
+  font-size: 30pt;;
+  font-family: glacialBold;
+  font-weight: bold;
+  color: white;
+}
+
+.ella-desc {
+  font-size: 11pt;
+  font-family: glacial;
+  text-shadow: none !important;
+  color: white;
+}
+
+.fella-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#location2 {
+  margin-top: 3rem;
+}
+
+.loc-container {
+  bottom: 0;
+}
+
+.loc-img {
+  width: 10rem;
+}
+
+.loc-head{
+  font-size: 30pt;
+  font-family: glacialBold;
+  font-weight: bold;
+  color: var(--secoundary2);
+}
+
+.loc-name {
+  font-size: 20pt;
+  font-family: glacialBold;
+  font-weight: bold;
+  color: var(--secoundary2);
+}
+
+.loc-address {
+  font-size: 11pt;;
+  font-family: glacial;
+  color: var(--secoundary2);
+  text-shadow: none !important;
+}
+
+.loc-btn {
+  background-color: var(--secoundary2);
+  color: var(--bg);
+  font-size: 25pt;
+  font-family: glacialBold;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
