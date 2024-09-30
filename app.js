@@ -11,6 +11,14 @@ $(function(){
 
  });
 
+ $("#ella-download").on('show.bs.modal', function(){
+  $("#faqs-download-video").trigger("play")
+})
+
+$("#ella-download").on('hidden.bs.modal', function(){
+  $("#faqs-download-video").trigger("pause")
+})
+
  let windowSize = $(window).width();
   if(windowSize < 992){
     $("#navigation-collapse").removeClass("d-none");

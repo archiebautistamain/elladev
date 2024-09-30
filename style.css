@@ -448,7 +448,7 @@ header {
 }
 
 #location {
-    height: 100vh;
+    margin-bottom: 10rem;
 }
 
 .location-header {
@@ -906,7 +906,7 @@ header {
 
   .contact-title {
 
-    color: var(--secoundary);
+    color: var(--secoundary2);
     font-size: 23pt;
     font-family: glacialBold;
     margin-top: 5rem;
@@ -920,7 +920,7 @@ header {
   .contact-form label {
     font-size: 12pt;
     font-family: glacial;
-    color: var(--primary);
+    color: var(--secoundary2);
   }
 
   .contact-form input, textarea {
@@ -931,6 +931,7 @@ header {
     border-radius: 1rem;
     border: var(--border);
     margin-bottom: 3rem;
+    border: solid 1px var(--secoundary2)
   }
 
   .contact-form textarea {
@@ -938,8 +939,9 @@ header {
   }
 
   .contact-form button {
-    color: white;
-    background-color: var(--bg);
+    font-weight: bold;
+    color: var(--bg) !important;
+    background-color: var(--secoundary);
     color: var(--primary);
     width: 30%;
     border: var(--border);
@@ -2393,4 +2395,48 @@ figure:hover img {
   border-radius: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.faqs-banner{
+  background-image: url("img/faqs-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+}
+
+.faqs-cards {
+  height: 25vh;
+}
+
+.faqs-cards .col-2 .container{
+  background-color: var(--secoundary2);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.faqs-card-title {
+  font-family: glacialBold;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.faqs-card-desc {
+  font-family: glacial;
+  font-size: 12pt;
+}
+
+.faqs-card-title, .faqs-card-desc {
+  padding: 1rem 3rem;
+  color: var(--bg);
+}
+
+.faqs-card-download {
+  cursor: pointer;
+}
+
+.faqs-modal-title {
+  font-size: 20pt;
+  color: var(--secoundary2);
 }
