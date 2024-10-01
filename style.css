@@ -2446,3 +2446,19 @@ figure:hover img {
   font-size: 20pt;
   color: var(--secoundary2);
 }
+
+.ourflavours-title h1 {
+  font-size: 30pt;
+  font-weight: bold;
+  color: var(--secoundary);
+}
+
+.flavours-btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 3rem;
+}
+
+.nav-link {
+  list-style: none;
+}

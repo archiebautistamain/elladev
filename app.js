@@ -11,6 +11,24 @@ $(function(){
 
  });
 
+
+ $(".flavour-card").on("mouseenter",function(){
+  $(this).css("margin-top", "-1rem")
+ })
+
+ $(".flavour-card").on("mouseleave",function(){
+  $(this).css("margin-top", "0")
+ })
+
+ if ( window.location.hash){
+  let hash = window.location.hash.substring(1);
+  if(hash === "flavours"){
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $("#flavours").offset().top
+  }, 1000);
+  }
+ }
+
  $("#ella-download").on('show.bs.modal', function(){
   $("#faqs-download-video").trigger("play")
 })
