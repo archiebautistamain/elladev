@@ -2234,15 +2234,21 @@ figure:hover img {
 .tagline {
   box-shadow: none !important;
   text-shadow: none !important;
-  font-family: glacial
+  font-family: glacial;
+  font-size: 15pt;
 }
 
 .tagline-head {
+  font-size: 30pt;
   font-family: glacialBold;
 }
 
 .tagline-head, .tagline {
   color: var(--bg) !important;
+}
+
+.tagline-btn {
+  font-size: 30pt;
 }
 
 .sect {
