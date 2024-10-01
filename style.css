@@ -2366,14 +2366,14 @@ figure:hover img {
 }
 
 .loc-head{
-  font-size: 30pt;
+  font-size: 40pt;
   font-family: glacialBold;
   font-weight: bold;
   color: var(--secoundary2);
 }
 
 .loc-name {
-  font-size: 20pt;
+  font-size: 30pt;
   font-family: glacialBold;
   font-weight: bold;
   color: var(--secoundary2);
