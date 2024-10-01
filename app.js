@@ -210,7 +210,7 @@ $('#card-carou .carousel').slick({
         $(".fella-img").fadeIn(1000);
       })
       
-    },3000)
+    },5000)
   
 });
 
