@@ -2462,3 +2462,10 @@ figure:hover img {
 .nav-link {
   list-style: none;
 }
+
+.slick-next:before, .slick-prev:before {
+  font-size: 20pt;
+  line-height: 1;
+  opacity: .75;
+  color: var(--secoundary2);
+}
