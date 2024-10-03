@@ -603,10 +603,45 @@ header {
 
 .back2 {
     background-image: url(img/card2.jpeg);
+    position: relative;
+    background-position: center;
+    overflow: hidden;
   }
+
+  .back2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all .2 linear;
+  }
+  
+  .back2 .inner {
+    position: relative;
+  }
+
 
 .back3 {
     background-image: url(img/card3.png);
+    overflow: hidden;
+  }
+
+  .back3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all .2 linear;
+  }
+  
+  .back3 .inner {
+    position: relative;
   }
   
   .inner{
