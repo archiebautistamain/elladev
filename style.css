@@ -243,9 +243,6 @@ header {
   max-width: 60%;
 }
 
-#desktop #aboutus {
-    height: 100vh;
-}
 #desktop #aboutus .banner { 
   position: relative;
     background: url("img/aboutus.JPG");
@@ -2503,4 +2500,60 @@ figure:hover img {
   line-height: 1;
   opacity: .75;
   color: var(--secoundary2);
+}
+
+.aboutus-banner, .fella-banner {
+  background-color: var(--secoundary2);
+}
+
+.aboutus-vid, .fella-vid{
+  border-radius: 2rem;
+}
+
+.aboutus-texts, .fella-texts {
+  font-size: 16px;
+  text-shadow: none !important;
+}
+
+.aboutus-button, .fella-button {
+  font-size: 16px !important;
+}
+
+.aboutus-btn, .fella-btn {
+  font-size: 20px;
+  background: var(--bg);
+  color: var(--secoundary);
+}
+
+.fottter {
+  border-top: 1px solid black;
+}
+
+.aboutus-title, .fellas-title{
+  font-size: 20px !important;
+  color: var(--bg);
+  font-weight: bold;
+}
+
+.ourflavours-img {
+  overflow: scroll;
+  height: 50vh;
+}
+
+.ourflavours-img img{
+  height: 100%;
+  width: auto;
+}
+
+.download-banner h1 {
+  font-size: 20px;
+  color: var(--secoundary2);
+  font-family: glacialBold;
+  font-weight: bold;
+}
+
+.download-banner h2 {
+  font-size: 16px;
+  color: var(--secoundary);
+  font-family: glacial;
 }
