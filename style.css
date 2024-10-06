@@ -1189,7 +1189,7 @@ text-shadow: 3px 1px 2px rgba(128, 128, 128, 1);
 
 
 #mobile-location{
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   width: 100vw;
   margin-top: 5rem;
   overflow-x: hidden;
@@ -2610,4 +2610,91 @@ figure:hover img {
 
 .mobile-carouu {
   height: 50vh;
+}
+
+.fella-mobile {
+  margin-top: 10rem;
+}
+
+.fellamobile-banner {
+  background-image: url("img/ellasfella.JPG");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+
+.fellamobile-desc h1{
+  font-size: 24px;
+  font-family: glacialBold;
+  font-weight: bold;
+  color: var(--secoundary2);
+}
+
+.fellamobile-desc h3 {
+  font-size: 18px;
+  font-family: glacial;
+  color: var(--secoundary);
+}
+
+.locationmobile-desc h1 {
+  font-size: 20px;
+  font-family: glacialBold;
+  color: var(--secoundary2);
+}
+
+.locationmobile-desc h3 {
+  font-size: 16px;
+  font-family: glacialBold;
+  color: var(--secoundary);
+}
+
+.locationmobile-desc p {
+  font-size: 10px;
+  font-family: glacial;
+  text-shadow: none !important;
+  color: var(--secoundary2);
+}
+
+.locationmobile-btn {
+  background-color: var(--secoundary2);
+  color: var(--bg);
+  font-family: glacialBold;
+
+}
+
+.mobilefaqs-banner {
+  background-image: url("img/faqs-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-top: 5rem;
+  border-radius: 2rem;
+}
+
+.mobilefaqs-accordion .accordion {
+  color: var(--bg) !important;
+  background-color: var(--secoundary2);
+  border-radius: 5rem !important;
+}
+
+.mobilefaqs-accordion .accordion-item {
+  color: var(--bg) !important;
+  background-color: var(--secoundary2);
+}
+
+.mobilefaqs-accordion .accordion-button{
+  color: var(--bg) !important;
+  background-color: var(--secoundary2);
+}
+
+.mobilefaqs-accordion .accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F7CFC5'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.faqsmobile-here {
+  cursor: pointer;
+  text-decoration: underline;
 }

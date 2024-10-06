@@ -305,7 +305,7 @@ $('#card-carou .carousel').slick({
     dots:true,
     });
 
-  $(".fell-img").css("background-image", `url("img/ellahighlights1.jpg")`);
+  $(".fella-img").css("background-image", `url("img/ellahighlights1.jpg")`);
   const imgs = [
     "img/ellahighlights1.jpg","img/ellahighlights2.jpg","img/ellahighlights5.jpg"
   ]
@@ -315,6 +315,20 @@ $('#card-carou .carousel').slick({
         randomImage = Math.floor( Math.random() * imgs.length);
         $(".fella-img").css("background-image", `url("${imgs[randomImage]}")`)
         $(".fella-img").fadeIn(1000);
+      })
+      
+    },5000)
+
+    $(".fellamobile-banner").css("background-image", `url("img/ellahighlights1.jpg")`);
+  const mobileimgs = [
+    "img/ellahighlights1.jpg","img/ellahighlights2.jpg","img/ellahighlights5.jpg"
+  ]
+  
+    setInterval(function(){
+      $(".fellamobile-banner").fadeOut(1000, function(){
+        randomImage = Math.floor( Math.random() * mobileimgs.length);
+        $(".fellamobile-banner").css("background-image", `url("${mobileimgs[randomImage]}")`)
+        $(".fellamobile-banner").fadeIn(1000);
       })
       
     },5000)
