@@ -1039,6 +1039,9 @@ header {
   .hero-highlight{
     color: var(--secoundary2);
     position: relative;
+    font-weight: bold;
+    font-family: glacialBold;
+    font-size: 24px !important;
   }
 
   .hero-highlight img {
